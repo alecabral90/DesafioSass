@@ -1,0 +1,66 @@
+html{
+	font-size:$normalizar
+}
+
+
+body{background-image: $fondo;}
+
+
+.imagen__desayuno--lg{
+	width: 90%;
+	height: 90%;
+	border: double 5px $colorSecundario;
+
+}
+
+.flex-center{
+	display: flex;
+	justify-content: center;
+}
+
+
+
+h1,h2,h3,h4,h5,h6{
+	color:white;
+	font-family: 'Roboto', sans-serif;
+	font-size:$textMd;
+	width: 100%;
+	padding: 10px 10px;
+	background-color: $colorPrincipalb;
+	border:double 1px $colorSecundario;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+
+.transformY:hover{
+	transform: translateY(-20px);
+	cursor: pointer;
+}
+
+
+div article{ 
+	margin: 20px 0px;
+
+
+	 p {
+	text-align: center;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	background-color:$colorPrincipal;
+	width: auto;
+	font-size: 2rem;
+	margin: 0px 0px;
+}
+
+}
+
+
+
+
+
+
+
+
+
